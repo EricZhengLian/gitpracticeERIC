@@ -1,6 +1,7 @@
 #Partner 1: Eric
 #Partner 2: Mia
 ########################
+#Assignment Name: GitHub Practice
 def getNRandom(n):
 	'''takes in an integer and returns a list of n random integers between 1 and 10, inclusive'''
     pass
