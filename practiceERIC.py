@@ -5,7 +5,7 @@
 import random
 =======
 #Assignment Name: GitHub Practice
->>>>>>> b5dfd7b6f52361802ea1c1f4812ea4dac6bfbb8d
+
 def getNRandom(n):
     '''takes in an integer and returns a list of n random integers between 1 and 10, inclusive'''
     if n < 10:
