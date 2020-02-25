@@ -1,9 +1,14 @@
 #Partner 1: Eric
 #Partner 2: Mia
 ########################
+import random
 def getNRandom(n):
-	'''takes in an integer and returns a list of n random integers between 1 and 10, inclusive'''
-    pass
+    '''takes in an integer and returns a list of n random integers between 1 and 10, inclusive'''
+    if n < 10:
+        return random.sample(range(1,11), n)
+    else:
+        return False
+        pass
 
 def multiplyRandom(numbers):
 	'''takes in a list of n numbers and returns the product of the numbers'''
